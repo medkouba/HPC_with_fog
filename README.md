@@ -43,5 +43,4 @@ This is a simple multi-threaded server and client implementation for password cr
 
 - `server.py`: Modify the `target_password` and character sets as needed.
 - `worker.py`: Modify the `server_ip` and `server_port` to match the server's IP and port.
-
-You can customize the character sets and other parameters in both files to fit your specific use case.
+- You can customize the character sets, number of workers (by default is 2) , and other parameters in the `server.py` and `worker.py` files to fit your specific use case.
